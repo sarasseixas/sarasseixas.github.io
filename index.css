@@ -1,0 +1,43 @@
+* {
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+    display:grid;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+
+}
+
+
+.row{
+    padding-bottom: 25px;
+
+}
+
+.grid{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 20px;
+
+}
+
+.fundo-rosa,
+.fundo-azul{
+    max-width: 80%;
+}
+
+.fundo-rosa{
+    background-color: fuchsia;
+}
+.fundo-azul{
+    background-color: aqua;
+}
+.fundo-amarelo{
+    background-color: #ffea00;
+
+}
+
+.fundo-vermelho{
+    background-color: crimson;
+}
+
