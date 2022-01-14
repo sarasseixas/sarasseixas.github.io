@@ -1,0 +1,49 @@
+* {
+    font-family: Noto Sans, sans-serif;
+    font-size: 15px;
+    display:grid;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.container{
+    align-content: center;
+
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.grid{
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.fundo-rosa,
+.fundo-azul,
+.fundo-amarelo{
+    max-width: 90%;
+}
+
+a:link {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+a:visited {    /* visited link */
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+a:hover {    /* mouse over link */
+    color: rgba(51, 246, 188, 0.89);
+    text-decoration: none;
+
+}
+
+

@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .grid{
@@ -24,7 +24,7 @@ body{
 .fundo-rosa,
 .fundo-azul,
 .fundo-amarelo{
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .fundo-rosa{
@@ -44,21 +44,15 @@ a:link {
     border-bottom: 1px solid;
 }
 a:visited {    /* visited link */
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.45);
 }
 a:hover {    /* mouse over link */
     color: rgba(51, 246, 188, 0.89);
 
 }
 a:active {    /* active link */
-    color: rgba(88, 56, 239, 0.45);
+    color: rgba(0, 0, 0, 0.7);
 }
-
-#carouselExampleControls{
-    color: black;
-    text-decoration-color:rgba(51, 246, 188, 0.89);
-}
-
 
 
 
