@@ -1,43 +1,68 @@
 * {
     font-family: Noto Sans, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     display:grid;
     padding-left: 20px;
     padding-right:20px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
-
-.row{
-    padding-bottom: 25px;
-
+body{
+    background-color: black;
 }
 
 .grid{
-    padding-left: 20px;
-    padding-right:20px;
-    padding-top: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
 .fundo-rosa,
-.fundo-azul{
-    max-width: 80%;
+.fundo-azul,
+.fundo-amarelo{
+    max-width: 70%;
 }
 
 .fundo-rosa{
-    background-color: fuchsia;
+    background-color: rgba(255, 255, 255, 0.45);
 }
 .fundo-azul{
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.45);
 }
 .fundo-amarelo{
-    background-color: #ffea00;
+    background-color: rgba(255, 255, 255, 0.45);
 
 }
 
-.fundo-vermelho{
-    background-color: crimson;
+a:link {
+    color: rgba(51, 246, 188, 0.89);
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
+a:visited {    /* visited link */
+    color: rgba(0, 0, 0, 0.7);
+}
+a:hover {    /* mouse over link */
+    color: rgba(51, 246, 188, 0.89);
+
+}
+a:active {    /* active link */
+    color: rgba(88, 56, 239, 0.45);
+}
+
+#carouselExampleControls{
+    color: black;
+    text-decoration-color:rgba(51, 246, 188, 0.89);
+}
+
+
+
+
+
+
+
 
