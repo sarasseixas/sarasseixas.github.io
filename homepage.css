@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@200&display=swap');
 
 body{
-    background-color: black;
+    background-color: #ffffff;
 
 }
 *{
@@ -9,7 +9,7 @@ body{
 }
 
 .box{
-    background-color:black;
+    background-color: #ffffff;
     position: absolute;
     left: 50%;
     top:50%;
@@ -24,9 +24,9 @@ body{
 }
 
 .box .heading span{
-    font-size:15px;
-    color: #ffffff;
-    font-family:Tahoma, sans-serif;
+    font-size:20px;
+    color: rgba(51, 246, 188, 0.89);
+    font-family:Noto Sans, sans-serif;
     display: inline-block;
 
 }
@@ -50,7 +50,7 @@ body{
 
 
 .box .line{
-    height:2px;
+    height:5px;
     background-color: rgba(46, 234, 179, 0.89);
 }
 
@@ -76,8 +76,8 @@ body{
 }
 
 .box .sub-heading span{
-    font-size: 15px;
-    color: rgba(208, 203, 203, 0.63);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0);
     font-family:Arial, sans-serif;
     display: inline-block;
 
@@ -106,13 +106,13 @@ h1 span{
     display: inline-block;
     overflow: hidden;
     transition: all 0.3s ease-out;
-    color: #ffffff;
+    color: rgba(0, 0, 0, 0.24);
     text-decoration: none;
 
 }
 
 h1 span:nth-child(even) {
-    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.24);
     letter-spacing: -40px;
 
 
@@ -121,7 +121,7 @@ h1 span:nth-child(even) {
 
 h1:hover span:nth-child(even) {
     letter-spacing: -10px;
-    color: rgba(225, 219, 219, 0.45);
+    color: rgba(51, 246, 188, 0.89);
 
 }
 
@@ -154,3 +154,24 @@ h1:hover span:nth-child(8) {
 
 
 }
+a:hover{
+    color:rgba(46, 234, 179, 0.89) ;
+}
+
+a:link {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration-color: rgba(51, 246, 188, 0.89);
+
+}
+a:visited {    /* visited link */
+    color: rgba(0, 0, 0, 0.7);
+}
+a:hover {    /* mouse over link */
+    color: rgba(51, 246, 188, 0.89);
+
+}
+a:active {    /* active link */
+    color: rgba(255, 255, 255, 0.45);
+}
+
+

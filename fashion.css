@@ -8,14 +8,8 @@
     padding-bottom: 10px;
 
 }
-.container{
-    align-content: center;
 
-}
 
-body{
-    background-color: #ffffff;
-}
 
 .grid{
     padding-left: 10px;
@@ -24,23 +18,20 @@ body{
     padding-bottom: 10px;
 
 }
-
-
-
 a:link {
     color: rgba(0, 0, 0, 0.7);
-    text-decoration: none;
+    text-decoration-color: rgba(51, 246, 188, 0.89);
 
-    border-bottom: 1px solid;
 }
 a:visited {    /* visited link */
     color: rgba(0, 0, 0, 0.7);
-    text-decoration: none;
 }
 a:hover {    /* mouse over link */
     color: rgba(51, 246, 188, 0.89);
-    text-decoration: none;
 
+}
+a:active {    /* active link */
+    color: rgba(255, 255, 255, 0.45);
 }
 
 
